@@ -184,7 +184,7 @@ Apply a constraint policy to ensure that[ mTLS is on](https://github.com/GoogleC
 git add .
 git commit -m "add PodSecurity policy constraints"
 git push 
-nomos status --poll 2s`
+nomos status --poll 2s
 ```
 
 The nomos status command monitors your enrolled clusters When you see the sync status return as Synced the policies have successfully been applied . If you observe any error messages resolve and repeat this step 
