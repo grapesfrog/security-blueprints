@@ -58,7 +58,7 @@ Use the [constraint template library](https://github.com/open-policy-agent/gatek
 1. Edit the copy to reflect your requirements and copy it into the appropriate place under the config-root/namespaces folder hierarchy
 1. Validate that the policy file is valid by using nomos vet
 
-    `nomos vet --path=/path/to/local-repo/`
+`nomos vet --path=/path/to/local-repo/`
 
  If the command returns silently then the Policy file being applied is valid
 
